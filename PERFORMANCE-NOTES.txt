@@ -1,0 +1,13 @@
+CMAN Portfolio — Performance Optimized
+
+What changed on the homepage:
+- Card preview videos are 640x360 at 15 FPS.
+- Full-resolution project videos are preserved for project detail pages.
+- Homepage preview video sources are attached only when near the viewport.
+- At most 3 card videos play at once.
+- Off-screen videos pause automatically.
+- Dandelion animation is capped near 30 FPS and lower device pixel ratio.
+- Dandelion seeds start releasing immediately and the stem bends/sways with wind.
+- Off-screen category rendering is reduced with content-visibility where supported.
+
+To deploy the complete site, copy the CONTENTS of this cman-portfolio folder into the root of your GitHub Pages repository.
